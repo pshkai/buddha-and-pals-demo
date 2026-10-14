@@ -13,4 +13,6 @@ Verified on 14 October 2026.
 - Initial GitHub Actions deployment completed successfully: https://github.com/pshkai/buddha-and-pals-demo/actions/runs/38529797362
 - Live home, CSS, JavaScript, WebP hero, SVG favicon and source-notes document all returned HTTP 200 after initial deployment. Final live browser inspection is recorded below after the booking-link update deploys.
 
+The booking-link update deployed successfully in run 38530119619. The public site was opened in the in-app browser and its Nightify CTA, experience switch, date planner, demo summary and console were checked. No console warnings/errors were captured. The browser retained an older cached JavaScript asset after refresh; the script URL is now versioned to ensure returning visitors receive the updated booking-result link.
+
 Limits: no manual screen-reader session or exhaustive accessibility audit; no call placed; Facebook and Instagram destinations are corroborated identities, but their full content could not be fetched with the research tool. No LINE link was added because its current identity could not be established. External business data and booking terms can change.

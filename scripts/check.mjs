@@ -5,7 +5,7 @@ const html = await readFile(new URL('index.html', root), 'utf8');
 const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
 assert.equal(new Set(ids).size, ids.length, 'IDs must be unique');
 for (const [, href] of html.matchAll(/href="#([^"]+)"/g)) assert(ids.includes(href), `Missing section: ${href}`);
-for (const [, path] of html.matchAll(/(?:src|href)="((?:assets\/|docs\/|styles\.css|app\.js)[^"]*)"/g)) await stat(new URL(path, root));
+for (const [, path] of html.matchAll(/(?:src|href)="((?:assets\/|docs\/|styles\.css|app\.js)[^"]*)"/g)) await stat(new URL(path.split('?')[0], root));
 await stat(new URL('assets/jazz-concept.webp', root));
 assert(html.includes('Not the official'));
 assert(html.includes('No live availability'));
