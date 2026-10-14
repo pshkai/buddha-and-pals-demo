@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { readFile, stat } from 'node:fs/promises';
+const root = new URL('../', import.meta.url);
+const html = await readFile(new URL('index.html', root), 'utf8');
+const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
+assert.equal(new Set(ids).size, ids.length, 'IDs must be unique');
+for (const [, href] of html.matchAll(/href="#([^"]+)"/g)) assert(ids.includes(href), `Missing section: ${href}`);
+for (const [, path] of html.matchAll(/(?:src|href)="((?:assets\/|docs\/|styles\.css|app\.js)[^"]*)"/g)) await stat(new URL(path, root));
+await stat(new URL('assets/jazz-concept.webp', root));
+assert(html.includes('Not the official'));
+assert(html.includes('No live availability'));
+console.log('Passed: section links, unique IDs, local assets and demo disclosures.');
