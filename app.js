@@ -36,6 +36,6 @@ document.querySelector('#visit-form').addEventListener('submit', event => {
   const title = document.createElement('strong'); title.textContent = 'Your illustrative visit plan';
   const summary = document.createElement('p'); summary.textContent = `${formatted} · ${document.querySelector('#time').value} (Bangkok) · ${party} ${party === '1' ? 'guest' : 'guests'} · ${document.querySelector('#seating').value}.`;
   const disclaimer = document.createElement('p'); disclaimer.textContent = 'Demo only — no reservation has been submitted. Please contact the business to make an actual booking. Your preferred time and seat are not confirmed.';
-  const contact = document.createElement('a'); contact.href = 'tel:+66615859283'; contact.textContent = 'Call Buddha & Pals: 061 585 9283 ↗';
+  const contact = document.createElement('a'); contact.href = 'https://nightify.co/book/buddha-pals/google'; contact.target = '_blank'; contact.rel = 'noopener noreferrer'; contact.textContent = 'Arrange a real booking on Nightify ↗';
   result.replaceChildren(title, summary, disclaimer, contact); result.hidden = false; result.focus();
 });

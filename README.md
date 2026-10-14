@@ -11,7 +11,7 @@ An independent, unsolicited café and jazz website concept for Buddha & Pals in 
 - Responsive editorial page: home, story, day/night experience, menu category guide, jazz information, visit planner, location/contact and guest-feedback links.
 - Working café/jazz mood toggle, category filters, mobile navigation and form validation.
 - Visit planner with future-date validation in Bangkok time, party size, preferred time/seating and accessible demo summary. No availability checks or reservation submission.
-- Phone, supplied Maps, Facebook and Instagram links. LINE pending current verification.
+- Phone, verified Maps and real Nightify booking links, plus supplied Facebook and Instagram links. LINE pending current verification.
 - Original, visibly labeled concept artwork; keyboard controls, focus indicators, reduced-motion support and semantic markup.
 
 ## Stack and local development
@@ -32,9 +32,9 @@ GitHub Actions validates and builds, uploads `dist/`, and deploys through GitHub
 
 ## Data and demo limitations
 
-See [source research and credits](docs/sources.md) for evidence, conflicts, language uncertainty and the image-generation prompt. Current hours, prices, live music schedule, minimum spend, entry conditions, parking/accessibility and current LINE identity need confirmation. Direct Maps/Facebook/Instagram retrieval was restricted. No Google rating or count is claimed. The page intentionally uses noindex for its unofficial status.
+See [source research and credits](docs/sources.md) for evidence, conflicts, language uncertainty and the image-generation prompt. Current hours, prices, live music schedule, minimum spend, entry conditions, parking/accessibility and current LINE identity need confirmation. Initial web-tool Maps/Facebook/Instagram retrieval was restricted; a later ordinary browser visit verified Maps hours, contact information and the Nightify booking destination. No Google rating or count is claimed. The page intentionally uses noindex for its unofficial status.
 
-No contact details are collected. Planner values remain in memory in the browser and are not sent or saved. No payment, order or booking occurs. Users must contact the real business to arrange a visit. External links, especially business profiles, remain controlled by their owners. The supplied Maps redirect could not be independently resolved during research.
+No contact details are collected. Planner values remain in memory in the browser and are not sent or saved. No payment, order or booking occurs. Users must contact the real business to arrange a visit. External links, especially business profiles, remain controlled by their owners. The supplied Maps redirect was independently resolved to Buddha & Pals in browser verification.
 
 Hero art: original built-in ImageGen concept at `assets/jazz-concept.webp`, not a venue photograph. CSS illustrations are original. Google Fonts provides DM Sans and Playfair Display with system-font fallbacks. No publicly visible social photographs were reused.
 

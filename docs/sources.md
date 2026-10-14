@@ -10,14 +10,14 @@ Research date: 14 October 2026. Independent, unsolicited website concept; no bus
 | Location | 712 Krung Kasem Road, Wat Sommanat, Pom Prap Sattru Phai, Bangkok 10100: Time Out, Gourmet Bangkok, multiple directories | Used with discrepancy note: Tripadvisor says 716; Time Out Thai body also says 71 while its address block says 712 |
 | Telephone | +66 61 585 9283 in business-managed Tripadvisor listing, Gourmet Bangkok and historical event poster | Used as a call link; no call placed |
 | Social destinations | Facebook and Instagram supplied by user, corroborated in coverage and historical event poster | Linked; direct page retrieval restricted during research |
-| Hours | Time Out: Tue–Sun 10:00–00:00. Tripadvisor: Monday café hours included. Other directories: Fri/Sat until 01:00 | Exact schedule omitted; contact team to confirm |
+| Hours | Time Out: Tue–Sun 10:00–00:00. Tripadvisor: Monday café hours included. Other directories: Fri/Sat until 01:00 | Browser Maps verification: Mon closed; Tue–Thu/Sun 10:00–00:00; Fri/Sat 10:00–01:00. Displayed with source/date and confirmation note |
 | Menu | Business-managed Tripadvisor description: coffee, tea, homemade Italian dishes. Historical editorial coverage: pasta | Category guide only; no item availability promised |
 | Pricing | Historical café prices, current directory cocktail lists and user-reported minimum spends disagree in scope and age | No numeric prices, minimum spends or entry fees displayed |
 | LINE | Historical Jazz Day poster gives @bnpcafe | Current ownership/destination not independently verified; no LINE button |
 | Email | sleep@kanvelahouse.com on Tripadvisor and directory | Shared house-level address; not displayed as confirmed café inbox |
-| Google Maps | User supplied https://maps.app.goo.gl/aVnUQRwD5zrYBV3i8 | Link retained; automated fetch failed. No firsthand Google rating, review count or live hours claimed |
+| Google Maps | User supplied https://maps.app.goo.gl/aVnUQRwD5zrYBV3i8 | Initial web fetch failed; subsequent browser visit resolved the correct business at 13.7602461, 100.5123396. Listing shows 4.6 / 1,485 reviews on research date (recorded here, not displayed as a site widget). Address and phone confirmed |
 | Parking / accessibility | Historical sources mention temple parking; current arrangements not established | Omitted; ask business |
-| Current booking / ordering platform | No current dedicated official booking URL established | Call/social links; illustrative planner submits nothing |
+| Current booking / ordering platform | Google Maps links https://nightify.co/book/buddha-pals/google; destination identifies Buddha & Pals | Linked for real bookings; illustrative planner submits nothing |
 | Language | Thai and English coverage; official social text unavailable directly | Primary social language uncertain. Thai outreach proposed for local owner with English translation |
 
 ## Sources
@@ -31,7 +31,7 @@ Research date: 14 October 2026. Independent, unsolicited website concept; no bus
 - BKKMENU, historical architectural background: https://www.bkkmenu.com/eat/we-recommend/buddha-and-pals.html
 - Bangkok Venues, current directory food/bar context and guest considerations: https://bangkokvenues.com/venues/buddha-and-pals/
 - Historical event poster, phone/social and old LINE identifier: https://jazzday.com/media/Bangkok-Post-Thailand.pdf
-- Guest themes cross-check only, no quotations or rating republished: https://wanderlog.com/list/geoCategory/815423/the-50-best-jazz-bars-and-jazz-clubs-in-bangkok
+- Guest themes cross-check only, no quotations republished: https://wanderlog.com/list/geoCategory/815423/the-50-best-jazz-bars-and-jazz-clubs-in-bangkok
 
 ## Digital opportunity assessment
 
@@ -57,3 +57,11 @@ A brief, subjective synthesis links to original Tripadvisor and Maps destination
 ## Before production
 
 Obtain business authorization and approved photography/brand assets. Confirm current address, opening hours, prices, taxes/service charges, dietary information, music calendar, entry rules and cancellation policies. Reverify all contact destinations, including LINE. Replace demo planning with an authorized real reservation service and appropriate privacy practices. Remove concept disclosures and noindex only after authorization and factual review. No personal data, payment, real availability or reservation submission is implemented in this static demo.
+
+## Browser verification update
+
+The supplied Maps link was verified in the ordinary browser UI on 14 October 2026. Google Maps confirms 712 Krung Kasem Road and 061 585 9283, and displays a wheelchair-accessible entrance indicator (not a complete accessibility audit). Published hours: Monday closed, Tuesday–Thursday and Sunday 10:00–00:00, Friday–Saturday 10:00–01:00. The listing website points to the supplied Facebook page. Its real booking link opens Nightify for Buddha & Pals. No booking was started or submitted.
+
+Nightify reservation information states jazz Tue–Sun 20:00–23:00, late Fri/Sat band until 01:00; selected stage-facing tables on Fri/Sat and special events have a THB 1,200/person minimum spend, and Sunday admission is THB 200/person. These are source-specific booking conditions, not general menu prices, and may change. The site links visitors to the current booking service rather than claiming real availability. Source: https://nightify.co/book/buddha-pals/google
+
+Google review snippets visible during browser verification praised music and vintage atmosphere; one criticized unclear reservation communication. This supports making the actual booking destination prominent. No reviewer text or personal identity is copied into the demo.
